@@ -1,6 +1,10 @@
-WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(
+    new WebApplicationOptions { WebRootPath = "static" });
 WebApplication app = builder.Build();
 
+
+app.UseDefaultFiles();
+app.UseStaticFiles();
 
 app.Use( async (context,next) =>
 {
@@ -8,16 +12,17 @@ app.Use( async (context,next) =>
          context.Response.Redirect("https://google.com");
     if (context.Request.Path == "/y")
         context.Response.Redirect("https://yandex.ru");
-    else await next.Invoke();
+    else await next.Invoke(context);
 
 });
+
+
 
 app.Run(async (context) =>
 {
     await context.Response.WriteAsync(context.Request.Path);
 });
 
-//test
 
 app.Run();
 
