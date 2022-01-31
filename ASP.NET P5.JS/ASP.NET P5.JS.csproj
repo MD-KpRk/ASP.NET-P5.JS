@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>ASP.NET_Processing_JS</RootNamespace>
+    <RootNamespace>ASP.NET_P5.JS</RootNamespace>
   </PropertyGroup>
 
 </Project>
