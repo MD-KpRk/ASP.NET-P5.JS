@@ -1,10 +1,9 @@
 function setup() {
-background(100);
-createCanvas(400, 400);
+    createCanvas(400, 400);
+    background(100);
 }
 
 
 function draw() {
-background(100);
-circle(mouseX,mouseY,20);
+    circle(mouseX,mouseY,20);
 }
