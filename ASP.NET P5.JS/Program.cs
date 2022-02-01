@@ -1,9 +1,10 @@
 var builder = WebApplication.CreateBuilder();
-builder.Services.AddRazorPages();
+//builder.Services.AddRazorPages();
 
 WebApplication app = builder.Build();
 
 
+app.UseDefaultFiles();
 app.UseStaticFiles();
 
 
@@ -25,7 +26,7 @@ app.UseStaticFiles();
 //});
 
 
-app.MapRazorPages();
+//app.MapRazorPages();
 
 app.Run();
 

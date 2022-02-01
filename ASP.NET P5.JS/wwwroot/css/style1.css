@@ -1,0 +1,79 @@
+﻿html {
+    overflow: auto;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html, body, div, iframe {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+}
+
+
+#sketch {
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+
+#tdmenu {
+    width: 30%;
+    text-align:center;
+    vertical-align:top;
+
+}
+#tdcontent {
+    width: 70%;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 800px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 50%;
+  margin-top: 5%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: yellow;
+}
+
+a:hover {
+  background: orange;
+}
+
+a:active {
+  background: red;
+  color: white;
+}
