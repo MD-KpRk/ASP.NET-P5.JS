@@ -12,28 +12,30 @@ html, body, div, iframe {
 }
 
 
-#sketch {
-    margin-left: 20%;
-    margin-bottom: 20%;
-}
-
 #tdmenu {
-    width: 30%;
+    width: 300px;
+    background-color:whitesmoke;
     text-align:center;
     vertical-align:top;
+    height: 950px;
 
 }
 #tdcontent {
-    width: 70%;
+    width: auto;
+    vertical-align: top;
+    
 }
 
 iframe {
+    margin-left: 20px;
+    margin-top: 10px;
+
     display: block;
     width: 100%;
     border: none;
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
-    height: 800px;
+    height: 900px;
 }
 
 table {
@@ -57,7 +59,7 @@ a {
   width: 50%;
   margin-top: 5%;
   text-align: center;
-  line-height: 3;
+  line-height: 2.2;
   color: black;
 }
 
@@ -66,14 +68,15 @@ li:last-child a {
 }
 
 a:link, a:visited, a:focus {
-  background: yellow;
+    background: #58595B;
+    color: whitesmoke;
 }
 
 a:hover {
-  background: orange;
+    background: #6593A6;
 }
 
 a:active {
-  background: red;
-  color: white;
+    background: #A3A5A8;
+    color: black;
 }
