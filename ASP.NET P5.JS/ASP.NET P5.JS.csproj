@@ -7,4 +7,21 @@
     <RootNamespace>ASP.NET_P5.JS</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="Pages\Index.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\p5.min.js" />
+    <Resource Include="wwwroot\js\sketches\sketch1.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\js\sketch1.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
