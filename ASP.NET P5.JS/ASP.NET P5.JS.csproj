@@ -8,14 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\html\sketches\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Update="wwwroot\css\style1.css">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Update="wwwroot\js\sketch1.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\js\sketch2.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
