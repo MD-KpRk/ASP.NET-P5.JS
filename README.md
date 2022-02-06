@@ -11,3 +11,5 @@ P5.JS черпает вдохновение, мудрость и руковод�
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 ![Alt Text](./ASP.NET-P5.JS/gifs/1.gif)
+
+![Optional Text](../master/ASP.NET-P5.JS/gifs/1.gif)
