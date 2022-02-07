@@ -18,10 +18,6 @@ function setup() {
     button1.position(10, 10);
     button1.mousePressed(clearBackground);
 
-    slider.input(() => {
-        strokeWeight(0);
-    });
-
 }
 
 function draw() {
