@@ -17,8 +17,8 @@ function draw() {
     strokeWeight(3);
     line(0, centerY, x, newY);
 
-    strokeWeight(1);
     stroke(255);
     line(x, newY, 0, newY - (centerY - newY));
+    strokeWeight(1);
 
 }
